@@ -1,10 +1,10 @@
-# Hướng Dẫn Sử Dụng Unit Test cho Chức Năng Đặt Hàng
+# Hướng dẫn sử dụng Unit Test cho chức năng đặt hàng
 
 Dự án này bao gồm các unit test để kiểm tra chức năng đặt hàng cho shop bán điện thoại, đảm bảo tính đúng đắn của hàm `dat_hang` trong file `shop.py`.
 
 ## Cách Sử Dụng Unit Test
 
-### 1. Chạy Unit Test với `pytest` (Tùy chọn)
+### 1. Chạy Unit Test với `pytest`
 
 1. Đảm bảo rằng bạn đã cài đặt `pytest`:
 
