@@ -19,6 +19,7 @@ Dự án này bao gồm các unit test để kiểm tra chức năng đặt hàn
      pip install pytest pytest-html
 
    - Lệnh này tạo ra một giao diện hiển thị kết quả chạy test bằng file html
+
      pytest --html=report.html
 
 3. Mở file `report.html` trong trình duyệt để xem báo cáo chi tiết về kết quả các test.
