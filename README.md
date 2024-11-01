@@ -2,11 +2,9 @@
 
 Dự án này bao gồm các unit test để kiểm tra chức năng đặt hàng cho shop bán điện thoại, đảm bảo tính đúng đắn của hàm `dat_hang` trong file `shop.py`.
 
-## Cách Sử Dụng Unit Test
+## Cách Sử Dụng Unit Test với `pytest`
 
-### 1. Chạy Unit Test với `pytest`
-
-1. Đảm bảo rằng bạn đã cài đặt `pytest`:
+1. Cài đặt `pytest`:
 
    pip install pytest
 
@@ -14,11 +12,11 @@ Dự án này bao gồm các unit test để kiểm tra chức năng đặt hàn
 
    pytest test_shop.py
 
-   - Để xuất báo cáo HTML, sử dụng lệnh:
+   - Để xuất báo cáo HTML, cài lệnh:
 
      pip install pytest pytest-html
 
-   - Lệnh này tạo ra một giao diện hiển thị kết quả chạy test bằng file html
+   - Chạy lệnh này tạo ra một giao diện hiển thị kết quả chạy test bằng file html
 
      pytest --html=report.html
 
